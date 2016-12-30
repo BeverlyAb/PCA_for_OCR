@@ -15,3 +15,4 @@ To test the last data set PCA_Recognition.m needs to access 45_45_Letters and 45
 
 Note: Data set one displays supplemental figures and graphs, which are not included by data set two and three. More information is said in the paper.
 
+*Feel free to use my work as a reference, but please refrain from copying code to serve as assignments in computer science related courses.*
