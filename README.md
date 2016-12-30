@@ -1,7 +1,7 @@
 # PCA_for_OCR
 This project was for my Numerical Computation class and has the goal of implementing Principal Component Analysis (PCA) towards Object Character Recognition (OCR) for converting images of letters into editable texts.
 
-This includes source code, test images, powerpoint presentation, and report explaining the project. My friends and contributors towards this project are Elham Alzaki and Nashawna Olton.
+This includes source code, test images, our powerpoint presentation, and a written report explaining the project. My friends and contributors towards this project are Elham Alzaki and Nashawna Olton.
 
 This implements MATLAB and source code from https://blog.cordiner.net/2010/12/02/eigenfaces-face-recognition-matlab/.
 
