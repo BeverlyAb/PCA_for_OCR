@@ -1,0 +1,62 @@
+%myPics = dir('*.png');
+input_dir= '/students/csci/004737953/Practice/Matlab/CSE_535/Project/Letters';
+image_dims = [156,190];
+images = zeros(190*156, 26);
+ 
+%filenames = dir(fullfile(input_dir, '*.png'));
+num_images = numel(filenames);
+
+% Create the matrix, images, ((156*190) x 26) = (Pixel Dimension x Number of Letters) 
+for n = 1:num_images
+    img = imread(fullfile(input_dir,sprintf('%d.png',n)),'BackgroundColor', [1 1 1]);
+    images(:, n) = img(:,n,:);
+end
+
+%
+%picNames =  {myPics.name};
+%[picRow, picCol] = size(myPics);
+%Create .mat file of all the images
+%for i= 1:picRow
+%    Letters{i} = imread(sprintf('%d.png',i),'BackgroundColor', [1 1 1]);
+%end
+%save Letters Letters % (1 x 26)
+
+%let = Letters';
+%[letRow,letCol] = size(let);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%D = imread('D.png', 'BackgroundColor', [1 1 1]);
+%imagesc(D);
+%D;
+
+%for i = 1 : picRow % Displayed all Images
+%  imagesc(imread(myPics(i,1).name, 'BackgroundColor', [1 1 1]));
+ %   picMat = imread(picNames(i,1), 'BackgroundColor',[1 1 1]);
+%end
+    % https://www.mathworks.com/matlabcentral/answers/108692-how-can-i-plot-an-image-in-matlab-this-is-giving-me-a-black-png-image
+    % reference : https://www.mathworks.com/matlabcentral/newsreader/view_thread/268249
+    % https://www.mathworks.com/matlabcentral/newsreader/view_thread/173858
+    % https://www.mathworks.com/matlabcentral/newsreader/view_thread/277989
+    % https://www.mathworks.com/matlabcentral/answers/63201-creating-a-mat-file
+    % https://www.mathworks.com/matlabcentral/answers/49954-how-to-create-a-single-mat-file-from-multiple-images
+    % https://blog.cordiner.net/2010/12/02/eigenfaces-face-recognition-matlab/
+    
+    %  meandata = mean(,2);
+
