@@ -13,6 +13,6 @@ PCA_Recognition.m can access the folders, 30_30_Letters and 30_30_Message which 
 
 To test the last data set PCA_Recognition.m needs to access 45_45_Letters and 45_45_Message on lines 5 and 30. This is to test the last data set. The second and third data results are then shown in large_text_message.txt. 
 
-Note: Data set one displays supplemental figures and graphs, which are not included by data set two and three. More information is said in the paper.
+Note: Data set one displays supplemental figures and graphs, which are not included by data set two and three. More information is said in the report.
 
 *Feel free to use my work as a reference, but please refrain from copying code to serve as assignments in computer science related courses.*
